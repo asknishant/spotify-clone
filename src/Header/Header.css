@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    width:200px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    justify-content: space-around;
+  }
+
+  .header__right:hover {
+    color: rgb(183, 174, 174);
+    transition: 0.2s;
+  }
+  
+  .header__left {
+    flex: 0.5;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    align-items: center;
+  }
+  
+  .header__left > input {
+    border: none;
+    width: 100%;
+  }
+  
+  .header__right > h4 {
+    margin-left: 10px;
+  }

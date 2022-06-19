@@ -9,7 +9,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.body::-webkit-scrollbar {
+    display: none;
+}
 .sidebar_logo {
     margin-right: auto;
     height: 70px;

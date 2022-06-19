@@ -1,8 +1,8 @@
 import React from 'react'
-import './Sidebar.css'
-import { SidebarOption } from './SidebarOption'
+import '../Sidebar/Sidebar.css'
+import { SidebarOption } from '../components/SidebarOption'
 import { Home, Search, LibraryMusic } from '@mui/icons-material'
-import { useDataLayerValue } from './DataLayer'
+import { useDataLayerValue } from '../DataLayer'
 
 const Sidebar = () => {
 
